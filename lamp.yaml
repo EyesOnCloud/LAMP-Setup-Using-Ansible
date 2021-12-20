@@ -37,5 +37,5 @@
 
     - name: Copying your php file in the /var/www/html
       copy:
-        src: /root/ansible/index.html
+        src: /root/index.html
         dest: /var/www/html/index.html 
